@@ -1,0 +1,59 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.tozyapi.com.tr/sitemap.xml
+
+# Önemli sayfalar
+Allow: /urunler/
+Allow: /projeler/
+Allow: /hakkimizda/
+Allow: /iletisim/
+Allow: /blog/
+
+# Arama motorları için özel yönergeler
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI ve LLM botları için özel yönergeler
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sosyal medya botları
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Engellenen alanlar
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.pdf$
+Disallow: /search?
+Disallow: /login
+Disallow: /register
+
+# Crawl delay (saniye)
+Crawl-delay: 1
+
